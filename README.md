@@ -1,6 +1,13 @@
 # SMART-DOOR-IOT
+
+This is a simple project made with an Arduino Uno. The aim is to control a door lock without keys, and using a smartphone.
+This is a simple project made with the Arduino Uno R3. The aim is to control a door lock without keys, and using a smartphone to accomplish this. The communication medium will be the internet (WiFi module-ESP8266).Smart doors project prevents the entry of unauthorized personnel. 
+
+
+
+
 TRAINING.py
-imort cv2,os
+import cv2,os
 import numpy as np
 from PIL import Image
 # recognizer = cv2.face.LBPHFaceRecognizer_create()
